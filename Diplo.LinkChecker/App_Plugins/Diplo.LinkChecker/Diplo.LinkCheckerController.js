@@ -60,7 +60,7 @@ angular.module("umbraco")
                     var dataLength = data.length;
 
                     if (dataLength < 1) {
-                        $scope.finishMessage = "<p class=\"alert\">No pages (that have a template) where found to check!</p>";
+                        $scope.finishMessage = "<p class=\"alert\">No pages (that have a template) were found to check!</p>";
                         $scope.buttonText = "Start Check";
                         return;
                     }
